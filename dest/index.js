@@ -107,5 +107,5 @@ function bonusCalculation(tree) {
 const arrangedSalesData = arrangeSalesData(salesData);
 const tree = generateGenealogyTree(arrangedSalesData);
 const bonus = bonusCalculation(tree);
-console.log(`Genealogy Tree: ${tree}`);
+console.dir(tree, { depth: null });
 console.log(`'YOU' bonus: ${bonus}`);
