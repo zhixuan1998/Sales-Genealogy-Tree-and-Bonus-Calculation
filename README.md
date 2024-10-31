@@ -1,5 +1,3 @@
-# amlife-international
-
 ## Project setup
 ```
 npm install
